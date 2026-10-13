@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GILMO | Discover Your Next Favorite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">GILMO<span>.</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+        </nav>
+
+        <a href="#products" class="shop-btn">Explore Products</a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">DISCOVER • EXPLORE • SHOP</p>
+
+                <h1>Good Finds.<br>Great Choices.</h1>
+
+                <p class="hero-description">
+                    Discover products you'll love, explore exciting deals,
+                    and find your next favorite with GILMO.
+                </p>
+
+                <a href="#products" class="primary-btn">
+                    Explore Now →
+                </a>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <span class="sparkle">✳</span>
+                    <p>YOUR NEXT<br>FAVORITE</p>
+                    <span class="visual-bottom">DISCOVER MORE ↗</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories" id="categories">
+            <div class="section-heading">
+                <p class="eyebrow">EXPLORE YOUR INTERESTS</p>
+                <h2>Shop by category</h2>
+            </div>
+
+            <div class="category-grid">
+                <a href="#products" class="category-card">
+                    <span>🎧</span>
+                    <h3>Electronics</h3>
+                    <p>Gadgets & accessories</p>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <span>👟</span>
+                    <h3>Fashion</h3>
+                    <p>Style your everyday</p>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <span>🏍️</span>
+                    <h3>Automotive</h3>
+                    <p>Gear up for the ride</p>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <span>🏠</span>
+                    <h3>Home & Living</h3>
+                    <p>Make life comfortable</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+    <div class="section-heading">
+        <p class="eyebrow">HANDPICKED DISCOVERIES</p>
+        <h2>Explore our collection</h2>
+        <p>Discover interesting products from different categories.</p>
+    </div>
+
+    <div class="product-controls">
+        <input
+            type="search"
+            id="searchInput"
+            placeholder="Search products..."
+            aria-label="Search products"
+        >
+
+        <select id="categoryFilter" aria-label="Filter by category">
+            <option value="all">All Categories</option>
+            <option value="electronics">Electronics</option>
+            <option value="fashion">Fashion</option>
+            <option value="automotive">Automotive</option>
+            <option value="home">Home & Living</option>
+        </select>
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+
+    <p id="noResults" class="no-results" hidden>
+        No products found. Try another search.
+    </p>
+
+    <p class="affiliate-notice">
+        GILMO may earn a commission from qualifying purchases made through
+        affiliate links. Prices and availability may change at the retailer.
+    </p>
+</section>
+        </main>
+
+        <footer>
+            <a href="#home" class="logo">GILMO<span>.</span></a>
+            <p>Discover something wonderful.</p>
+            <p class="copyright">© 2026 GILMO. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
